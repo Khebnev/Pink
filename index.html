@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <title>Pink</title>
 </head>
-<body class="container-small container-middle container-big">
+<body class="container--small container--middle container--big">
 
     <header class="page-header">
-        <nav class="menu popup-menu">
-           <a class="header-logo">
-               <img src="http://placehold.it/75x22">
+            <a class="header-logo">
+               <img class="logo-small" src="http://placehold.it/75x22">
+               <img class="logo-middle" src="http://placehold.it/147x40">
+               <img class="logo-large" src="http://placehold.it/147x40">
            </a>
-           <div class="close-menu">
-               <button class="close-menu__button" type="button"></button>
-           </div>
-            <ul class="menu-list">
-                <li class="menu-item"></li>
-                <li class="menu-item"></li>
-                <li class="menu-item"></li>
-                <li class="menu-item"></li>
+
+        <nav class="navigation">
+           <button class="navigation__toggle burger" type="button">
+               Открыть меню
+           </button>
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a href="#">Главная</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#">Фотографии</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#">Конкурс</a>
+                </li>
+                <li class="navigation__item">
+                    <a href="#">HTML Academy</a>
+                </li>
             </ul>
         </nav>
     </header>
