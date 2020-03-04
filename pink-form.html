@@ -48,7 +48,8 @@
                 Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
             </p>
             <form method="post" action="https://echo.htmlacademy.ru">
-                <div class="section-form__full-name full-name__wrapper">
+                <fieldset class="section-form__full-name full-name__wrapper">
+                   <legend class="visually-hidden">ФИО</legend>
                     <p class="full-name__surname">
                         <label name="surname" for="your-surname">Фамилия</label>
                         <input class="full-name__input input__surname" id="your-surname" type="text" placeholder="Укажите фамилию *">
@@ -61,7 +62,119 @@
                         <label name="patronymic" for="your-patronymic">Отчество</label>
                         <input class="full-name__input input__patronymic" id="your-patronymic" type="text" placeholder="Ну и отчество тоже *">
                     </p>
+                </fieldset>
+                <fieldset class="achievements">
+                    <legend class="achievements__title">
+                        Ваши безбашенные
+достижения в путешествии
+                    </legend>
+                    <ul class="achievements__list">
+                        <li class="achievements__item">
+                            <label class="achievements__checkbox">
+                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
+                                <span class="checkbox-indicator">
+                                    Сделал селфи с акулой
+                                </span>
+                            </label>
+                        </li>
+                        <li class="achievements__item">
+                            <label class="achievements__checkbox">
+                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
+                                <span class="checkbox-indicator">
+                                    Обгорел на пляже
+                                </span>
+                            </label>
+                        </li>
+                        <li class="achievements__item">
+                            <label class="achievements__checkbox">
+                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
+                                <span class="checkbox-indicator">
+                                    Видел Чака Норриса
+                                </span>
+                            </label>
+                        </li>
+                        <li class="achievements__item">
+                            <label class="achievements__checkbox">
+                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
+                                <span class="checkbox-indicator">
+                                    Накупил сувениров
+                                </span>
+                            </label>
+                        </li>
+                        <li class="achievements__item">
+                            <label class="achievements__checkbox">
+                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
+                                <span class="checkbox-indicator">
+                                    Удержал башню
+                                </span>
+                            </label>
+                        </li>
+                        <li class="achievements__item">
+                            <label class="achievements__checkbox">
+                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
+                                <span class="checkbox-indicator">
+                                    Разгромил отель
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                <fieldset class="contact-information">
+                    <legend class="contact-information__title"></legend>
+                    <p class="contact-information__phone-wrapper">
+                        <label name="tel" for="your-tel" class="phone-label">
+                            Номер телефона
+                        </label>
+                        <input class="phone-input" id="your-tel" type="text" placeholder="Номер, пожалуйста">
+                    </p>
+                    <p class="contact-information__email-wrapper">
+                        <label name="email" for="your-email" class="email-label">
+                            Адрес почты
+                        </label>
+                        <input class="email-input" id="your-email" type="text" placeholder="Введите почту *">
+                    </p>
+                </fieldset>
+                <fieldset class="application">
+                    <legend class="application-title">
+                        <ul class="application__list">
+                            <li class="application-item">
+                                <label class="application-radio">
+                                    <input class="visually-hidden application-input application-input-radio" type="radio" name="application-radio-input">
+                                    <span class="radio-indicator">
+                                        Pink для iOS
+                                    </span>
+                                </label>
+                            </li>
+                            <li class="application-item">
+                                <label class="application-radio">
+                                    <input class="visually-hidden application-input application-input-radio" type="radio" name="application-radio-input">
+                                    <span class="radio-indicator">
+                                        Pink на Android
+                                    </span>
+                                </label>
+                            </li>
+                            <li class="application-item">
+                                <label class="application-radio">
+                                    <input class="visually-hidden application-input application-input-radio" type="radio" name="application-radio-input">
+                                    <span class="radio-indicator">
+                                        Windows Phone
+                                    </span>
+                                </label>
+                            </li>
+                        </ul>
+                    </legend>
+                </fieldset>
+                <fieldset class="describe-emotions">
+                    <legend class="describe-emotions__title">
+                        Опишите свои эмоции
+                    </legend>
+                    <textarea name="emotion-text" class="describe-emotions__text"  cols="30" rows="10" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+                </fieldset>
+                <div class="bottom-form__wrapper">
+                    <button class="send-form" type="submit">Отправить форму</button>
+                    <p class="remark-mobile"><span class="remark-sign">*</span> — обязательные поля</p>
                 </div>
+
             </form>
         </section>
     </main>
