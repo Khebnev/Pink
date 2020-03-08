@@ -8,178 +8,16 @@
     <h1 class="visually-hidden">
         Страница формы
     </h1>
-    <header class="page-header">
-            <a class="header-logo">
-               <img class="logo-small" src="http://placehold.it/75x22">
-               <img class="logo-middle" src="http://placehold.it/147x40">
-               <img class="logo-large" src="http://placehold.it/147x40">
-           </a>
+    @@include('sections/form/_form-header.html')
 
-        <nav class="navigation">
-           <button class="navigation__toggle burger" type="button">
-               Открыть меню
-           </button>
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a href="#">Главная</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#">Фотографии</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#">Конкурс</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#">HTML Academy</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
 
-    <main class="page-main">
-        <section class="section-header">
-            <h2 class="section-header__title">
-                Конкурс на самое безбашенное путешествие с Пинк
-            </h2>
-        </section>
-        <section class="section-form">
-            <h2 class="visually-hidden">Заполние формы</h2>
-            <p class="section-form__title">
-                Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните форму ниже:
-            </p>
-            <form method="post" action="https://echo.htmlacademy.ru">
-                <fieldset class="section-form__full-name full-name__wrapper">
-                   <legend class="visually-hidden">ФИО</legend>
-                    <p class="full-name__surname">
-                        <label name="surname" for="your-surname">Фамилия</label>
-                        <input class="full-name__input input__surname" id="your-surname" type="text" placeholder="Укажите фамилию *">
-                    </p>
-                    <p class="full-name__name">
-                        <label name="name" for="your-name">Имя</label>
-                        <input class="full-name__input input__name" id="your-name" type="text" placeholder="Укажите ваше имя *">
-                    </p>
-                    <p class="full-name__patronymic">
-                        <label name="patronymic" for="your-patronymic">Отчество</label>
-                        <input class="full-name__input input__patronymic" id="your-patronymic" type="text" placeholder="Ну и отчество тоже *">
-                    </p>
-                </fieldset>
-                <fieldset class="achievements">
-                    <legend class="achievements__title">
-                        Ваши безбашенные
-достижения в путешествии
-                    </legend>
-                    <ul class="achievements__list">
-                        <li class="achievements__item">
-                            <label class="achievements__checkbox">
-                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
-                                <span class="checkbox-indicator">
-                                    Сделал селфи с акулой
-                                </span>
-                            </label>
-                        </li>
-                        <li class="achievements__item">
-                            <label class="achievements__checkbox">
-                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
-                                <span class="checkbox-indicator">
-                                    Обгорел на пляже
-                                </span>
-                            </label>
-                        </li>
-                        <li class="achievements__item">
-                            <label class="achievements__checkbox">
-                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
-                                <span class="checkbox-indicator">
-                                    Видел Чака Норриса
-                                </span>
-                            </label>
-                        </li>
-                        <li class="achievements__item">
-                            <label class="achievements__checkbox">
-                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
-                                <span class="checkbox-indicator">
-                                    Накупил сувениров
-                                </span>
-                            </label>
-                        </li>
-                        <li class="achievements__item">
-                            <label class="achievements__checkbox">
-                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
-                                <span class="checkbox-indicator">
-                                    Удержал башню
-                                </span>
-                            </label>
-                        </li>
-                        <li class="achievements__item">
-                            <label class="achievements__checkbox">
-                                <input class="visually-hidden achievements-input achievements-input-checkbox" type="checkbox" name="achievements-checkbox-input">
-                                <span class="checkbox-indicator">
-                                    Разгромил отель
-                                </span>
-                            </label>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset class="contact-information">
-                    <legend class="contact-information__title"></legend>
-                    <p class="contact-information__phone-wrapper">
-                        <label name="tel" for="your-tel" class="phone-label">
-                            Номер телефона
-                        </label>
-                        <input class="phone-input" id="your-tel" type="text" placeholder="Номер, пожалуйста">
-                    </p>
-                    <p class="contact-information__email-wrapper">
-                        <label name="email" for="your-email" class="email-label">
-                            Адрес почты
-                        </label>
-                        <input class="email-input" id="your-email" type="text" placeholder="Введите почту *">
-                    </p>
-                </fieldset>
-                <fieldset class="application">
-                    <legend class="application-title">
-                        <ul class="application__list">
-                            <li class="application-item">
-                                <label class="application-radio">
-                                    <input class="visually-hidden application-input application-input-radio" type="radio" name="application-radio-input">
-                                    <span class="radio-indicator">
-                                        Pink для iOS
-                                    </span>
-                                </label>
-                            </li>
-                            <li class="application-item">
-                                <label class="application-radio">
-                                    <input class="visually-hidden application-input application-input-radio" type="radio" name="application-radio-input">
-                                    <span class="radio-indicator">
-                                        Pink на Android
-                                    </span>
-                                </label>
-                            </li>
-                            <li class="application-item">
-                                <label class="application-radio">
-                                    <input class="visually-hidden application-input application-input-radio" type="radio" name="application-radio-input">
-                                    <span class="radio-indicator">
-                                        Windows Phone
-                                    </span>
-                                </label>
-                            </li>
-                        </ul>
-                    </legend>
-                </fieldset>
-                <fieldset class="describe-emotions">
-                    <legend class="describe-emotions__title">
-                        Опишите свои эмоции
-                    </legend>
-                    <textarea name="emotion-text" class="describe-emotions__text"  cols="30" rows="10" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
-                </fieldset>
-                <div class="bottom-form__wrapper">
-                    <button class="send-form" type="submit">Отправить форму</button>
-                    <p class="remark-mobile"><span class="remark-sign">*</span> — обязательные поля</p>
-                </div>
-
-            </form>
-        </section>
+    <main class="form-main">
+        @@include('sections/form/_section-header.html')
+        @@include('sections/form/_section-form.html')
     </main>
 
-    <footer class="page-footer">
+    @@include('sections/_footer.html')
+    <!-- <footer class="form-footer">
         <p class="footer__logo">
              <img class="footer__logo-img" src="http://placehold.it/147x40">
         </p>
@@ -198,7 +36,7 @@
             <span class="copyright__developed-by">Разработано</span>
             <img class="social__icon" src="http://placehold.it/27x34">
         </p>
-    </footer>
+    </footer> -->
 
 </body>
 </html>

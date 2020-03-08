@@ -1,0 +1,36 @@
+<section class="section-upload">
+    <h2 class="visually-hidden">Загрузить пост</h2>
+    <p class="section-upload__title">
+        Затмите их всех!
+Выкладывайте все, что накопилось в телефоне!
+    </p>
+    <form method="post" action="https://echo.htmlacademy.ru" class="section-upload__post-form post-form">
+        <p class="post-form__img-container">
+            <img class="section-upload__img--mobile" src="http://placehold.it/280x374">
+            <img class="section-upload__img--tablet-desktop" src="http://placehold.it/300x400">
+        </p>
+        <div class="section-upload__slider-wrapper slider">
+            <ul class="slider__list">
+                <li class="slider__item">
+                    <img class="section-upload__crop" src="http://placehold.it/48x48">
+                    <input class="section-upload__range range__crop" type="range">
+                </li>
+                <li class="slider__item">
+                    <img class="section-upload__fill" src="http://placehold.it/48x48">
+                    <input class="section-upload__range range__fill" type="range">
+                </li>
+                <li class="slider__item">
+                    <img class="section-upload__contrast" src="http://placehold.it/32x32">
+                    <input class="section-upload__range range__contrast" type="range">
+                </li>
+            </ul>
+            <input class="section-upload__range range__mix" type="range">
+        </div>
+        <p class="section-upload__post-buttons">
+            <button type="submit" class="button__upload-post">
+                Запостить
+            </button>
+            <button type="button" class="button__cancel-post"></button>
+        </p>
+    </form>
+</section>
