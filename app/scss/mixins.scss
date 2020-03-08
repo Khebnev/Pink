@@ -1,0 +1,5 @@
+@mixin google-font-load($name) {
+    @import url(https://fonts.google.com/specimen/Open+Sans?selection.family=#{$name});
+}
+
+
