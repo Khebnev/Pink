@@ -5,6 +5,17 @@
     color: #fff;
 }
 
+.intro-logo {
+    display: block;
+}
+
+.intro__menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
 .open-menu{
     display: block;
     position: relative;

@@ -1,0 +1,72 @@
+
+.advantages {
+    background-color: #fff;
+    background-image: url(../../../img/information-shape.png);
+    background-repeat: no-repeat;
+    background-position: 0 218px;
+}
+
+.advantages__slogan{
+    color: #283645;
+    display: block;
+    text-align: center;
+
+    font-family: Open Sans Light;
+    font-size: 24px;
+}
+.slogan__top {
+    padding-top: 44px;
+    margin-bottom: 32px;
+}
+.slogan__bottom {
+    margin-bottom: 30px;
+}
+
+.advantages__list {
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.advantages__item:first-child {
+    padding-top: 52px;
+}
+.advantages__item {
+    display: block;
+    padding-top: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.advantages__item .advantage__title {
+    padding: 0;
+    margin: 0;
+    display: block;
+    font-family: Open+Sans;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+
+    margin-bottom: 16px;
+}
+
+.advantages__img-big {
+    display: none;
+}
+
+.advantages__item .advantage__description {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.advantages .advantages__img-small{
+    display: block;
+    margin: 0 auto;
+    margin-top: 44px;
+}
+
+.advantages__img-middle {
+    display: none;
+}
