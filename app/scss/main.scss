@@ -8,3 +8,45 @@
 @import "blocks/index/price";
 @import "blocks/index/contacts";
 @import "blocks/footer";
+
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: chartreuse;
+    width: 320px;
+    margin: 0 auto;
+}
+
+// .wrapper {
+//     width: 320px;
+//     padding: 0 20px;
+// }
+
+.visually-hidden {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

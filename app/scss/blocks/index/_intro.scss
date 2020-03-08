@@ -1,0 +1,70 @@
+.intro {
+    background-image: url(../../../img/back-mobile@1x.png);
+    background-repeat: no-repeat;
+
+    color: #fff;
+}
+
+.open-menu{
+    display: block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+}
+
+.burger-menu{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+
+.download-application {
+    background-color: #1d2631;
+}
+
+.application__button {
+    display: block;
+    font-family: Open+Sans;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    background-color: #1d2631;
+    color: #fff;
+    text-align: center;
+    
+    width: 280px;
+    
+    border-radius: 30px;
+    border: 3px solid #fff;
+    padding: 16px 0;
+    margin: 0 auto;
+}
+
+.application__img-wrapper {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.application__ios-img {
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.application__windows-img{
+    margin-left: 34px;
+    margin-right: 34px;
+}
+
+.application__accessible {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 280p;
+    
+    text-align: center;
+    font-family: Open Sans Light;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 25px;
+}

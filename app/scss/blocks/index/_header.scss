@@ -1,4 +1,15 @@
 @import "mixins.scss";
 header {
-    background-color: #fff;
+    background-color: #1d2631;
+}
+
+.logo-middle {
+    display: none;
+}
+.logo-large {
+    display: none;
+}
+
+.navigation__list {
+    display: none;
 }
