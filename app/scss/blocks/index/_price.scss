@@ -1,0 +1,59 @@
+.price {
+    background-image: url(../../../img/price-shape.png);
+    background-repeat: no-repeat;
+
+    background-color: #fff;
+}
+
+.price__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -16px; //Убираю разрыв между блоками price и review.
+    padding-top: 66px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.price__list .price__item {
+
+}
+.tariff .tariff__name {
+    display: block;
+    background-color: #283645;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.tariff__name .base__title{
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-family: Open+Sans;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 700;
+}
+
+.tariff__name .base__cost {
+    display: block;
+    font-family: Open Sans Light;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.tariff__includes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    box-sizing: border-box;
+    border: 2px solid #e5e5e5;
+    text-transform: uppercase;
+    font-family: Open+Sans;
+    font-size: 14px;
+    line-height: 30px;
+    color: #283645;
+}
