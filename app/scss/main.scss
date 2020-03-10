@@ -9,11 +9,13 @@
 @import "blocks/index/contacts";
 @import "blocks/footer";
 
-html, body{
-    width: 100%;
+ body{
     margin: 0;
     padding: 0;
+    min-width: 320px;
 }
+
+
 
 .container {
     background-color: chartreuse;
@@ -53,4 +55,28 @@ a {
 img {
     max-width: 100%;
     height: auto;
+}
+
+.header-intro__wrapper {
+    background-image: url(../img/back-mobile@1x.png);
+    background-repeat: no-repeat;
+    background-size: 320px;
+    // width: 320px;
+}
+
+@media screen and (min-width: 660px) {
+    body {
+        min-width: 660px;
+    }
+    
+    .container {
+        background-color: rgb(111, 0, 255);
+        width: 660px;
+        margin: 0 auto;
+    }
+    .header-intro__wrapper {
+        background-image: url(../img/back-mobile@1x.png);
+        background-repeat: no-repeat;
+        background-size: 660px;
+    }
 }

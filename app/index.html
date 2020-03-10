@@ -7,17 +7,15 @@
 </head>
 <body class="container">
 
+    <div class="header-intro__wrapper">
     <header class="page-header content__wrapper">
-    <a class="header-logo">
-       <img class="logo-small" src="../../../img/logo-small.png">
-       <img class="logo-middle" src="http://placehold.it/147x40">
-       <img class="logo-large" src="http://placehold.it/147x40">
-   </a>
 
 <nav class="navigation">
-   <button class="navigation__toggle burger" type="button">
-       Открыть меню
-   </button>
+    <a class="header-logo">
+        <img class="logo-small" src="../../../img/logo-small.png">
+        <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
+        <img class="logo-large" src="http://placehold.it/147x40">
+    </a>
     <ul class="navigation__list">
         <li class="navigation__item">
             <a href="#">Главная</a>
@@ -32,6 +30,11 @@
             <a href="#">HTML Academy</a>
         </li>
     </ul>
+    <!-- <div class="burger__wrapper"> -->
+        <button class="navigation__toggle burger open-menu__burger burger-menu" type="button">
+            <span class="visually-hidden">Открыть меню</span>  
+        </button>
+    <!-- </div> -->
 </nav>
 </header>
 
@@ -39,30 +42,25 @@
         <section class="intro">
     <!-- фон для блока -->
     <h2 class="visually-hidden">Скачать приложение</h2>
-    <section class="top-menu intro__menu">
-        <a class="header-logo intro-logo">
-            <img class="logo-small" src="../../../img/logo-small.png">
-        </a>
-        <div class="open-menu">
-            <button class="open-menu__burger burger-menu"></button>
-        </div>
-    </section>
     <section class="iphone-hand">
         <h2 class="visually-hidden">Отображение использования приложения на iphone</h2>
-        <img src="../../../img/iphone-5-in-hand.png">
+        <img src="../../../img/iphone-5-in-hand.png" height="286">
     </section>
     <section class="download-application application">
        <h2 class="visually-hidden">Скачать приложение</h2>
+       <div class="application__wrapper">
         <a href="#" class="download-application__button application__button">Скачать приложение</a>
         <!-- Вырезать потом картинки одинакового размера -->
         <div class="application__img-wrapper">
-            <img class="application__ios-img" src="http://placehold.it/47x56">
-            <img class="application__android-img" src="http://placehold.it/47x56">
-            <img class="application__windows-img" src="http://placehold.it/47x56">
+            <img class="application__ios-img" src="../../../img/apple-logo-png.png">
+            <img class="application__android-img" src="../../../img/android-logo-png.png">
+            <img class="application__windows-img" src="../../../img/microsoft-logo-png.png">
         </div>
         <p class="application__accessible">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </div>
     </section>
 </section>
+    </div>
         <section class="advantages">
     <h2 class="visually-hidden">Приемущества</h2>
     <b class="advantages__slogan slogan__top">

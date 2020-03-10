@@ -1,10 +1,12 @@
 @import "mixins.scss";
 header {
-    background-color: #1d2631;
+    // background-color: #1d2631;
+    // background-color: transparent;
+    background-color: rgba($color: #000000, $alpha: 0.3);
 }
 
 .header-logo {
-    display: none;
+
 }
 
 .logo-middle {
@@ -16,9 +18,54 @@ header {
 }
 
 .navigation {
-    display: none;
+    width: 320px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    box-sizing: border-box;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
 }
 
 .navigation__list {
     display: none;
+}
+
+.burger__wrapper {
+    // width: 20px;
+}
+
+.burger-menu {
+    width: 20px;
+    height: 20px;
+}
+
+
+// table version
+
+@media screen and (min-width: 660px) {
+    .navigation {
+        width: 660px;
+        margin: 0 auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 27px;
+        padding-bottom: 44px;
+        box-sizing: border-box;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-between;
+       align-items: center;
+    }
+    .logo-small {
+        display: none;
+    }
+    .logo-middle {
+        display: block;
+    }
+    .burger-menu {
+        width: 50px;
+        height: 24px;
+    }
 }
