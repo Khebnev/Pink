@@ -105,7 +105,7 @@
 
 .navigation--opened .navigation__wrapper {
     width: 320px;
-    height: 326px;
+
 }
 
 .navigation__list {
@@ -119,4 +119,33 @@
 }
 .navigation--closed .navigation__list {
     display: none;
+}
+
+@media screen and (min-width: 660px) {
+    .navigation--closed .navigation__toggle {
+        content: "";
+    
+        position: absolute;
+        top: 22px;
+        left: 212px;
+    
+        width: 50px;
+        height: 4px;
+    
+        background-color: #fff;
+        box-shadow: 0 8px 0 0 #fff, 0 16px 0 0 #fff;
+    
+        &::after {
+            content: "";
+    
+            position: absolute;
+            top: 0;
+            left: 0;
+    
+            width: 50px;
+            height: 24px;
+    
+            background-color: transparent;
+        }
+    }
 }
