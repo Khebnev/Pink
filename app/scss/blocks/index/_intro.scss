@@ -103,15 +103,155 @@
     .iphone-hand__img-little {
         display: none;
     }
+
+    .application__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .download-application {
         background-color: transparent;
         width: 300px;
         padding-top: 102px;
+        margin-left: 20px;
+    }
+    .application__wrapper {
+        padding-top: 28px;
+        background-color: transparent;
     }
 
     .application__phrase {
         display: block;
+        
+        font-family: Open Sans Light;
+        font-size: 40px;
+        color: #fff;
+        text-transform: uppercase;
         padding: 0 50px;
         box-sizing: border-box;
+        margin-bottom: 28px;
+        text-align: center;
     }
+    
+    .application .application__button {
+        display: block;
+        font-family: Open+Sans;
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: 700;
+        background-color: transparent;
+        color: #fff;
+        text-align: center;
+        
+        width: 280px;
+        
+        border-radius: 30px;
+        border: 3px solid #fff;
+        padding: 16px 0;
+        margin: 0 auto;
+        margin-bottom: 32px;
+    }
+
+    .application__img-wrapper {
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 24px;
+        width: 210px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .application__ios-img {
+        margin: 0;
+    }
+    
+    .application__windows-img{
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro {
+    display: block;
+    background-image: url(../../../img/bg-desktop-1200.png);
+    background-size: 1200px 853px;
+    background-repeat: no-repeat;
+    background-position: 0 -110px;
+    color: #fff;
+    min-height: 730px;
+}
+.iphone-hand__img-middle {
+    display: none;
+}
+.iphone-hand__img-little {
+    display: none;
+}
+
+.application__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.download-application {
+    background-color: transparent;
+    width: 300px;
+    padding-top: 102px;
+    margin-left: 130px;;
+}
+.application__wrapper {
+    padding-top: 28px;
+    background-color: transparent;
+}
+
+.application__phrase {
+    display: block;
+    
+    font-family: Open Sans Light;
+    font-size: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0 50px;
+    box-sizing: border-box;
+    margin-bottom: 28px;
+}
+
+.application .application__button {
+    display: block;
+    font-family: Open+Sans;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: 700;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    
+    width: 280px;
+    
+    border-radius: 30px;
+    border: 3px solid #fff;
+    padding: 16px 0;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.application__img-wrapper {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    width: 210px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.application__ios-img {
+    margin: 0;
+}
+
+.application__windows-img{
+    margin: 0;
+}
 }
