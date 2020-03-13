@@ -9,35 +9,39 @@
 <body class="container">
 
     <div class="header-intro__wrapper">
-    <header class="page-header content__wrapper">
+    <div class="page-header__shadow">
+    <header class="page-header "> <!-- Класс content__wrapper -->
+        <a class="header-logo">
+            <img class="logo-small" src="../../../img/logo-small.png">
+            <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
+            <img class="logo-large" src="http://placehold.it/147x40">
+        </a>
+        <nav class="navigation  navigation--opened"> <!-- navigation--closed  navigation--opened -->
+            <div class="navigation__wrapper">
+                <ul class="navigation__list site-list">
+                    <li class="site-list__item site-list__item--active">
+                        <a>Главная</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Фотографии</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">Конкурс</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="#">HTML Academy</a>
+                    </li>
+                </ul>
+            </div>
+        <!-- <div class="burger__wrapper"> -->
+            <button class="navigation__toggle " type="button"> <!-- Классы burger open-menu__burger burger-menu -->
+                <span class="visually-hidden">Открыть меню</span>  
+            </button>
+        <!-- </div> -->
+        </nav>
 
-<nav class="navigation">
-    <a class="header-logo">
-        <img class="logo-small" src="../../../img/logo-small.png">
-        <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
-        <img class="logo-large" src="http://placehold.it/147x40">
-    </a>
-    <ul class="navigation__list">
-        <li class="navigation__item">
-            <a href="#">Главная</a>
-        </li>
-        <li class="navigation__item">
-            <a href="#">Фотографии</a>
-        </li>
-        <li class="navigation__item">
-            <a href="#">Конкурс</a>
-        </li>
-        <li class="navigation__item">
-            <a href="#">HTML Academy</a>
-        </li>
-    </ul>
-    <!-- <div class="burger__wrapper"> -->
-        <button class="navigation__toggle burger open-menu__burger burger-menu" type="button">
-            <span class="visually-hidden">Открыть меню</span>  
-        </button>
-    <!-- </div> -->
-</nav>
-</header>
+    </header>
+</div>
 
  <main class="page-main content__wrapper">
         <section class="intro">

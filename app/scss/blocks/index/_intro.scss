@@ -1,12 +1,13 @@
 .intro {
-    // display: block;
-    // background-image: url(../../../img/back-mobile@1x.png);
-    // background-repeat: no-repeat;
+    display: block;
+    background-image: url(../../../img/back-mobile@1x.png);
+    background-repeat: no-repeat;
+    background-position: 0 -66px;
     color: #fff;
 }
 
 .iphone-hand {
-    margin-top: 110px;
+    padding-top: 110px;
     // position: relative;
     // z-index: 1;
 }

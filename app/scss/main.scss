@@ -1,3 +1,5 @@
+// файл scaffolding.scss (добавить)
+
 @import "mixins.scss";
 
 @import "blocks/index/header";
@@ -15,7 +17,10 @@
     min-width: 320px;
 }
 
-
+// .content__wrapper {
+//     padding: 0 20px;
+//     margin: 0 auto;
+// }
 
 .container {
     background-color: chartreuse;
@@ -32,7 +37,7 @@
 //     padding: 0 20px;
 // }
 
-.visually-hidden {
+.visually-hidden:not(:focus):not(:active) {
     position: absolute;
 
     width: 1px;
@@ -57,12 +62,12 @@ img {
     height: auto;
 }
 
-.header-intro__wrapper {
-    background-image: url(../img/back-mobile@1x.png);
-    background-repeat: no-repeat;
-    background-size: 320px;
-    // width: 320px;
-}
+// .header-intro__wrapper {
+//     background-image: url(../img/back-mobile@1x.png);
+//     background-repeat: no-repeat;
+//     background-size: 320px;
+//     // width: 320px;
+// }
 
 @media screen and (min-width: 660px) {
     body {

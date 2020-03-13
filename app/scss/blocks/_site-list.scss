@@ -1,0 +1,35 @@
+
+
+ 
+
+.site-list {
+    font-weight: bold;
+    font-family: Open Sans;
+}
+
+.site-list a {
+    display: block;
+    padding-top: 23px;
+    padding-bottom: 20px;
+
+    background-color: #283645;
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    border-top: 1px solid #485461;
+    border-bottom: 1px solid #000; 
+}
+
+.site-list a[href] {
+    &:hover {
+        background-color: #283645;
+        border-top-color: red;
+    }
+
+    &:active {
+        color: rgba(255, 255, 255, 0.3);
+        background-color: green;
+        border-top-color: orange;
+    }
+}
