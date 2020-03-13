@@ -35,3 +35,37 @@
         border-top-color: rgb(20, 20, 20);
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .site-list {
+        font-weight: 400;
+        font-family: Open Sans;
+    }
+    
+    .site-list a {
+        // display: block;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    
+
+        font-size: 18px;
+        line-height: 18px;
+        color: #fff;
+        text-align: center;
+        text-transform: none;
+        background-color: transparent;
+    }
+
+    .site-list a[href] {
+        &:hover {
+            background-color: #d22856;
+            border-top-color: rgb(10, 10, 10);
+        }
+    
+        &:active {
+            color: rgba(255, 255, 255, 0.3);
+            background-color: #304050;
+            border-top-color: rgb(20, 20, 20);
+        }
+    }
+}

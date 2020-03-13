@@ -188,3 +188,32 @@
         width: 660px;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    .navigation--opened .navigation__wrapper {
+        width: 622px;
+    }
+    .navigation--opened .navigation__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .navigation--closed .navigation__list {
+        display: none;
+    }
+
+    .navigation {
+        position: relative;
+        margin: 0;
+    
+        // display: flex;
+        // flex-wrap: wrap;
+    
+        // width: 320px;
+        // min-height: 51px;
+        // margin: 0 auto;
+    
+        background-color: transparent;
+    }
+}

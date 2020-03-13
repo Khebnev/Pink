@@ -21,6 +21,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
     
 }
 
@@ -64,6 +65,9 @@ header {
         background-size: 1200px 110px;
         // background-image: url(../../../img/bg-header-1200.png);
         background-repeat: no-repeat;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 130px;
     }
 
     
@@ -72,9 +76,14 @@ header {
     }
 
     .logo-middle {
+        display: none;
+    }
+    .logo-large {
         display: block;
-        padding: 19px 0;
-        padding-left: 20px;
+    }
+
+    .page-header .header-logo {
+        align-self: center;
     }
 }
 
