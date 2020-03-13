@@ -68,4 +68,10 @@
             border-top-color: rgb(20, 20, 20);
         }
     }
+    .navigation--closed .site-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 620px;
+        justify-content: space-between;
+    }
 }
