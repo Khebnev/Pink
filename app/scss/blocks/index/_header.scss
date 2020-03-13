@@ -57,6 +57,24 @@ header {
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .page-header {
+        background-image: url(../../../img/bg-header-1200.png);
+        background-repeat: no-repeat;
+    }
+
+    
+    .header-logo .logo-small {
+        display: none;
+    }
+
+    .logo-middle {
+        display: block;
+        padding: 19px 0;
+        padding-left: 20px;
+    }
+}
+
 
 // .navigation {
 //     // padding: 20px 20px;
