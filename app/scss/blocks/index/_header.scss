@@ -15,7 +15,7 @@ header {
 }
 
 .page-header {
-    background-image: url(../../../img/bg-header-1200.png);
+    background-image: url(../../../img/bg-header.png);
     background-size: 320px 66px;
     background-repeat: no-repeat;
     display: flex;
@@ -63,7 +63,7 @@ header {
 @media screen and (min-width: 1200px) {
     .page-header {
         background-size: 1200px 110px;
-        // background-image: url(../../../img/bg-header-1200.png);
+        background-image: url(../../../img/bg-header-1200.png);
         background-repeat: no-repeat;
         display: flex;
         justify-content: space-between;
