@@ -12,10 +12,12 @@
     padding-top: 23px;
     padding-bottom: 20px;
 
+
     background-color: #283645;
     font-size: 18px;
     line-height: 32px;
     color: #fff;
+    text-align: center;
     text-transform: uppercase;
     border-top: 1px solid #485461;
     border-bottom: 1px solid #000; 
@@ -23,13 +25,13 @@
 
 .site-list a[href] {
     &:hover {
-        background-color: #283645;
-        border-top-color: red;
+        background-color: #2c3b4b;
+        border-top-color: rgb(10, 10, 10);
     }
 
     &:active {
         color: rgba(255, 255, 255, 0.3);
-        background-color: green;
-        border-top-color: orange;
+        background-color: #304050;
+        border-top-color: rgb(20, 20, 20);
     }
 }
