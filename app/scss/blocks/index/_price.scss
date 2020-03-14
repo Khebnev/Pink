@@ -1,16 +1,20 @@
 .price {
-    background-image: url(../../../img/price-shape.png);
-    background-repeat: no-repeat;
+    // background-image: url(../../../img/price-shape.png);
+    // background-size: 320px;
+    // background-position: 0 43px;
+    // background-repeat: no-repeat;
+    background: rgb(242,242,242);
+background: linear-gradient(356deg, rgba(242,242,242,1) 85%, rgba(255,255,255,1) 86%);
 
     background-color: #fff;
     line-height: 30px;
+    padding-top: 43px;
 }
 
 .price__list {
     list-style: none;
     margin: 0;
     padding: 0;
-    // margin-top: -16px; //Убираю разрыв между блоками price и review.
     padding-top: 66px;
     padding-left: 20px;
     padding-right: 20px;
@@ -94,4 +98,82 @@
     margin: 0;
     margin-top: 40px;
     padding-bottom: 46px;
+}
+
+@media screen and (min-width: 660px) {
+    .price {
+        // background-image: url(../../../img/price-shape.png);
+        // background-size: 660px ;
+        // background-repeat: no-repeat;
+
+        background: rgb(242,242,242);
+        background: linear-gradient(356deg, rgba(242,242,242,1) 85%, rgba(255,255,255,1) 86%);
+
+        background-color: #fff;
+        line-height: 30px;
+    }
+
+    .price .price__list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 620px;
+        justify-content: flex-end;
+    }
+
+    .tariff .tariff__name {
+        border-left: 2px solid #f2f2f2;
+        border-right: 2px solid #f2f2f2;
+    }
+
+    .price__list .price__item--base  {
+        display: block;
+        width: 154px;
+        flex-grow: 1;
+    }
+
+    .price__item--base .tariff__name {
+        width: 154px;
+        margin-left: 158px;
+    }
+    
+    .price__list .price__item--standart {
+        display: block;
+        width: 154px;
+    }
+    
+    .price__list .price__item--unlim {
+        display: block;
+        width: 154px;
+    }
+
+    .tariff__includes span {
+        display: none;
+    }
+
+    .tariff__includes img {
+        margin: 0 auto;
+    }
+
+    .price__item--base span {
+        display: block;
+    }
+
+    .tariff .tariff__includes {
+        // display: flex;
+        min-height: 45px;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        // padding: 18px 20px;
+
+    }
+
+    .price__item--base img {
+        margin: 0;
+    }
+
+    // .tariff__includes-wrapper {
+    //     width: 154px;
+    //     flex-grow: 1;
+    // }
 }
