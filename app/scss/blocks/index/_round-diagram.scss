@@ -1,3 +1,57 @@
 .round-diagram {
     display: none;
 }
+
+@media screen and (min-width: 660px) {
+    .round-diagram {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 20px;
+        box-sizing: border-box;
+        justify-content: space-between;
+        background-color: #fff;
+        align-items: center;
+
+        font-family: Open Sans;
+    }
+
+    .round-diagram__img-wrapper {
+        margin: 0;
+        padding: 0;
+    }
+
+    .round-diagram__img--middle {
+        display: block;
+    }
+    .round-diagram__img--large {
+        display: none;
+    }
+
+    .round-diagram__text-wrapper {
+        width: 310px;
+    }
+    .round-diagram__text-wrapper .round-diagram__title {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+    } 
+
+    .round-diagram__text-wrapper .round-diagram__description {
+        color: #283645;
+        font-size: 14px;
+        line-height: 24px;
+        margin: 0;
+        padding: 0;
+        margin-top: 13px;
+        margin-bottom: 18px;
+    }
+
+    .round-diagram__text-wrapper a {
+        color: #d22856;
+        font-size: 14px;
+        line-height: 24px;
+        text-decoration: underline;
+    }
+}

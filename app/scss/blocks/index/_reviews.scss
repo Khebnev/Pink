@@ -1,6 +1,6 @@
 .reviews {
     background-color: #fff;
-    font-family: Open+Sans;
+    font-family: Open Sans;
     line-height: 30px;
     padding-top: 48px;
 }
@@ -28,6 +28,11 @@
     text-align: center;
 }
 
+.reviews blockquote {
+    margin: 0;
+    padding: 0;
+}
+
 .reviews__item .reviews__author-name {
     display: block;
     margin: 0;
@@ -35,6 +40,7 @@
     font-size: 18px;
     font-weight: 700;
     margin-bottom: 23px;
+    font-style: normal;
 }
 
 .reviews__item .reviews__author-position {
