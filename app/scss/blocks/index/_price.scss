@@ -10,7 +10,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-top: -16px; //Убираю разрыв между блоками price и review.
+    // margin-top: -16px; //Убираю разрыв между блоками price и review.
     padding-top: 66px;
     padding-left: 20px;
     padding-right: 20px;
@@ -83,7 +83,7 @@
     box-sizing: border-box;
     border: 2px solid #e5e5e5;
     text-transform: uppercase;
-    font-family: Open+Sans;
+    font-family: Open Sans;
     font-size: 14px;
     line-height: 30px;
     color: #283645;
