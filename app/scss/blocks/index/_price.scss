@@ -118,6 +118,7 @@ background: linear-gradient(356deg, rgba(242,242,242,1) 85%, rgba(255,255,255,1)
         flex-wrap: wrap;
         width: 620px;
         justify-content: flex-end;
+        padding-bottom: 67px;
     }
 
     .tariff .tariff__name {
@@ -175,6 +176,9 @@ background: linear-gradient(356deg, rgba(242,242,242,1) 85%, rgba(255,255,255,1)
     //     width: 154px;
     //     flex-grow: 1;
     // }
+    .price__toggles {
+        display: none;
+    }
 }
 
 
@@ -195,6 +199,7 @@ background: linear-gradient(356deg, rgba(242,242,242,1) 85%, rgba(255,255,255,1)
         flex-wrap: wrap;
         width: 940px;
         justify-content: flex-end;
+        padding-bottom: 95px;
     }
 
     //
@@ -269,7 +274,9 @@ background: linear-gradient(356deg, rgba(242,242,242,1) 85%, rgba(255,255,255,1)
     //     width: 154px;
     //     flex-grow: 1;
     // }
-
+    .price__toggles {
+        display: none;
+    }
 
 
 }
