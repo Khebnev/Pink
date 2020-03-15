@@ -1,6 +1,7 @@
 .contacts {
     background-color: #fff;
     background-image: url(../../../img/map-marker.jpg);
+    background-size: 320px;
     background-repeat: no-repeat;
     min-height: 612px;
 }
@@ -18,11 +19,23 @@
 }
 
 .address {
-    // background-color: #fff;
-        background-image: url(../../../img/contacts-bg-triangle.png);
-            background-position: 0 307px;
-            background-repeat: no-repeat;
-            min-height: 490px;
+    // // background-color: #fff;
+    //     background-image: url(../../../img/contacts-bg-triangle.png);
+    //         background-position: 0 307px;
+    //         background-repeat: no-repeat;
+    //         // min-height: 490px;
+    position: relative;
+    &::after {
+        position: absolute;
+        content: "";
+        background-image: url(../../../img/contacts-bg-triangle-1200.png);
+        background-repeat: no-repeat;
+        background-size: 320px;
+        width: 320px;
+        height: 70px;
+        bottom: -70px;
+    }
+    
 }
 
 .address .phone {
@@ -58,4 +71,165 @@
 .address .location {
     padding-top: 5px;
     padding-bottom: 38px;
+}
+
+@media screen and (min-width: 660px) {
+    .contacts {
+        background-color: #fff;
+        background-image: url(../../../img/map-marker-660.png);
+        background-size: 660px;
+        background-repeat: no-repeat;
+        min-height: 780px;
+    }
+
+    .contacts .contacts__title {
+        font-size: 40px;
+
+        padding-top: 51px;
+        padding-bottom: 44px;
+    }
+    
+    .address {
+        background-color: #fff;
+        //     background-image: url(../../../img/contacts-bg-triangle.png);
+        //         background-position: 0 403px;
+        //         background-repeat: no-repeat;
+
+        //         // min-height: 490px;
+  
+        // padding-left: 20px;
+        // padding-right: 20px;
+        &::after {
+            position: absolute;
+            content: "";
+            background-size: 660px;
+            width: 660px;
+            height: 70px;
+            bottom: -70px;
+        }
+    }
+
+    .address .address__inside {
+        padding: 0 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .phone__wrapper {
+        flex-basis: 300px;
+        // margin: 0;
+        // padding: 0;
+    }
+
+    .email__wrapper {
+        flex-basis: 300px;
+        // margin: 0;
+        // padding: 0;
+    }
+
+    .location__wrapper {
+        flex-grow: 1;
+        margin-top: 49px;
+    }
+
+    .address .phone {
+        padding-top: 8px;
+        padding-bottom: 0;
+    }
+
+    .address .email {
+        padding-top: 8px;
+        padding-bottom: 0;
+    }
+    
+    .address .location {
+        padding-top: 10px;
+        padding-bottom: 27px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contacts {
+        background-color: #fff;
+        background-image: url(../../../img/map-marker-1200.jpg);
+        background-size: 1200px;
+        background-repeat: no-repeat;
+        min-height: 780px;
+    }
+
+    .contacts .contacts__title {
+        font-size: 50px;
+
+        padding-top: 70px;
+        padding-bottom: 59px;
+    }
+    
+    .address {
+        background-color: #fff;
+        //     background-image: url(../../../img/contacts-bg-triangle.png);
+        //         background-position: 0 403px;
+        //         background-repeat: no-repeat;
+
+        //         // min-height: 490px;
+  
+        // padding-left: 20px;
+        // padding-right: 20px;
+        padding-bottom: 20px;
+        &::after {
+            position: absolute;
+            content: "";
+            background-size: 1200px;
+            width: 1200px;
+            height: 125px;
+            bottom: -110px;
+        }
+    }
+
+    .address .address__inside {
+        padding: 0 130px;
+        display: flex;
+        flex-wrap: wrap;
+        // justify-content: space-between;
+        // width: 940px;
+        // text-align: center;
+    }
+
+    .phone__wrapper {
+        flex-basis: 300px;
+        order: 1;
+        // margin: 0;
+        // padding: 0;
+
+    }
+
+    .email__wrapper {
+        flex-basis: 300px;
+        // margin: 0;
+        // padding: 0;
+        order: 3;
+    }
+
+    .location__wrapper {
+        flex-basis: 300px;
+        flex-grow: 0;
+        margin-top: 0;
+        order: 2;
+    }
+
+    .address .phone {
+        padding-top: 24px;
+        padding-bottom: 0;
+    }
+
+    .address .email {
+        padding-top: 24px;
+        padding-bottom: 0;
+    }
+    
+    .address .location {
+        padding-top: 23px;
+        padding-bottom: 0;
+    }
+
 }
