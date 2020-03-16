@@ -34,7 +34,7 @@ header {
 
 .header-logo .logo-small {
     // padding: 19px 0;
-    padding-left: 0;
+    padding-left: 20px;
 }
 
 .navigation__wrapper .header-logo {
@@ -52,6 +52,10 @@ header {
 .navigation--opened .header-logo  {
     padding: 0;
     text-align: left;
+}
+
+.navigation__wrapper .burger__wrapper {
+    padding-right: 20px;
 }
 
 
