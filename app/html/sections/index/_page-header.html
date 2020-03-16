@@ -1,33 +1,43 @@
-<div class="page-header__shadow">
-    <header class="page-header "> <!-- Класс content__wrapper -->
-        <a class="header-logo">
+<header class="page-header"> <!-- Класс content__wrapper -->
+    <div class="header__top">
+        <!-- <a class="header-logo">
             <img class="logo-small" src="../../../img/logo-small.png">
             <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
             <img class="logo-large" src="../../../img/logotype-white-desktop.png">
-        </a>
+        </a> -->
         <nav class="navigation  navigation--closed "> <!-- navigation--closed  navigation--opened -->
             <div class="navigation__wrapper">
+                <a class="header-logo">
+                    <img class="logo-small" src="../../../img/logo-small.png">
+                    <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
+                    <img class="logo-large" src="../../../img/logotype-white-desktop.png">
+                </a>
                 <ul class="navigation__list site-list">
                     <li class="site-list__item site-list__item--active">
                         <a>Главная</a>
                     </li>
                     <li class="site-list__item">
-                        <a href="#">Фотографии</a>
+                        <a href="../../pink-photo.html">Фотографии</a>
                     </li>
                     <li class="site-list__item">
-                        <a href="#">Конкурс</a>
+                        <a href="../../pink-form.html">Конкурс</a>
                     </li>
                     <li class="site-list__item">
-                        <a href="#">HTML Academy</a>
+                        <a href="https://htmlacademy.ru">HTML Academy</a>
                     </li>
                 </ul>
+                <div class="burger__wrapper">
+                    <button class="navigation__toggle" type="button"> 
+                        <span class="visually-hidden">Открыть меню</span>  
+                    </button>
+                </div>
             </div>
+    </div>
         <!-- <div class="burger__wrapper"> -->
-            <button class="navigation__toggle " type="button"> <!-- Классы burger open-menu__burger burger-menu -->
+            <!-- <button class="navigation__toggle " type="button"> 
                 <span class="visually-hidden">Открыть меню</span>  
-            </button>
+            </button> -->
         <!-- </div> -->
         </nav>
-
-    </header>
-</div>
+    </div>
+</header>

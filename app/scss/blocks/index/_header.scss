@@ -2,34 +2,43 @@
 @import "../navigation";
 @import "../site-list";
 
-.page-header__shadow {
-    background-color: rgba($color: #000000, $alpha: 0.3);
-}
+
 
 
 header {
-    // background-color: #1d2631;
-    background-color: transparent;
-
-
+    background-image: url(../../../img/back-mobile-320x462.png);
+    background-size: 320px 462px;
+    background-repeat: no-repeat;
+    //background-position: 0 260px;
+    min-height: 462px;
+    //min-height: 721px;
 }
 
 .page-header {
-    background-image: url(../../../img/bg-header.png);
-    background-size: 320px 66px;
-    background-repeat: no-repeat;
+
+    // background-repeat: no-repeat;
+
+}
+.header__top {
+    width: 100%;
+    height: 66px;
+    background-color: rgba(0, 0, 0, 0.3);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
-    
+    align-items: center;
 }
+
 
 
 
 .header-logo .logo-small {
-    padding: 19px 0;
-    padding-left: 20px;
+    // padding: 19px 0;
+    padding-left: 0;
+}
+
+.navigation__wrapper .header-logo {
+    padding: 0;
 }
 
 .logo-middle {
@@ -38,6 +47,11 @@ header {
 
 .logo-large {
     display: none;
+}
+
+.navigation--opened .header-logo  {
+    padding: 0;
+    text-align: left;
 }
 
 

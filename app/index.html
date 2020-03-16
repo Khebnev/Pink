@@ -7,67 +7,50 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="container">
-
-    <div class="header-intro__wrapper">
-    <div class="page-header__shadow">
-    <header class="page-header "> <!-- Класс content__wrapper -->
-        <a class="header-logo">
+    <header class="page-header"> <!-- Класс content__wrapper -->
+    <div class="header__top">
+        <!-- <a class="header-logo">
             <img class="logo-small" src="../../../img/logo-small.png">
             <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
             <img class="logo-large" src="../../../img/logotype-white-desktop.png">
-        </a>
+        </a> -->
         <nav class="navigation  navigation--closed "> <!-- navigation--closed  navigation--opened -->
             <div class="navigation__wrapper">
+                <a class="header-logo">
+                    <img class="logo-small" src="../../../img/logo-small.png">
+                    <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
+                    <img class="logo-large" src="../../../img/logotype-white-desktop.png">
+                </a>
                 <ul class="navigation__list site-list">
                     <li class="site-list__item site-list__item--active">
                         <a>Главная</a>
                     </li>
                     <li class="site-list__item">
-                        <a href="#">Фотографии</a>
+                        <a href="../../pink-photo.html">Фотографии</a>
                     </li>
                     <li class="site-list__item">
-                        <a href="#">Конкурс</a>
+                        <a href="../../pink-form.html">Конкурс</a>
                     </li>
                     <li class="site-list__item">
-                        <a href="#">HTML Academy</a>
+                        <a href="https://htmlacademy.ru">HTML Academy</a>
                     </li>
                 </ul>
+                <div class="burger__wrapper">
+                    <button class="navigation__toggle" type="button"> 
+                        <span class="visually-hidden">Открыть меню</span>  
+                    </button>
+                </div>
             </div>
+    </div>
         <!-- <div class="burger__wrapper"> -->
-            <button class="navigation__toggle " type="button"> <!-- Классы burger open-menu__burger burger-menu -->
+            <!-- <button class="navigation__toggle " type="button"> 
                 <span class="visually-hidden">Открыть меню</span>  
-            </button>
+            </button> -->
         <!-- </div> -->
         </nav>
-
-    </header>
-</div>
-
- <main class="page-main content__wrapper">
-        <section class="intro">
-    <!-- фон для блока -->
-    <h2 class="visually-hidden">Скачать приложение</h2>
-    <section class="iphone-hand">
-        <h2 class="visually-hidden">Отображение использования приложения на iphone</h2>
-        <img class="iphone-hand__img-little" src="../../../img/iphone-5-in-hand.png" height="286">
-        <img class="iphone-hand__img-middle" src="../../../img/iphone-6-png-middle.png" alt="">
-    </section>
-    <section class="download-application application">
-       <h2 class="visually-hidden">Скачать приложение</h2>
-       <div class="application__wrapper">
-            <b class="application__phrase">Взгляните на жизнь иначе!</b>
-            <a href="#" class="download-application__button application__button">Скачать приложение</a>
-            <!-- Вырезать потом картинки одинакового размера -->
-            <div class="application__img-wrapper">
-                <img class="application__ios-img" src="../../../img/apple-logo-png.png">
-                <img class="application__android-img" src="../../../img/android-logo-png.png">
-                <img class="application__windows-img" src="../../../img/microsoft-logo-png.png">
-            </div>
-            <p class="application__accessible">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-        </div>
-    </section>
-</section>
     </div>
+</header>
+ <main class="page-main content__wrapper">
         <section class="advantages">
     <h2 class="visually-hidden">Приемущества</h2>
     <div class="advantages__slogan-wrapper">

@@ -3,45 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <title>Pink-photo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="container">
     <h1 class="visually-hidden">
         Страница фото
     </h1>
-    <header class="photo-header">
-    <a class="header-logo">
-       <img class="logo-small" src="http://placehold.it/75x22">
-       <img class="logo-middle" src="http://placehold.it/147x40">
-       <img class="logo-large" src="http://placehold.it/147x40">
-   </a>
+    <div class="header-intro__wrapper">
+    <div class="photo-header__shadow">
+    <header class="photo-header"> <!-- Класс content__wrapper -->
+        <a class="header-logo">
+            <img class="logo-small" src="../../../img/logo-small.png">
+            <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
+            <img class="logo-large" src="../../../img/logotype-white-desktop.png">
+        </a>
+        <nav class="navigation  navigation--closed "> <!-- navigation--closed  navigation--opened -->
+            <div class="navigation__wrapper">
+                <ul class="navigation__list site-list">
+                    <li class="site-list__item">
+                        <a href="../../../index.html">Главная</a>
+                    </li>
+                    <li class="site-list__item site-list__item--active">
+                        <a>Фотографии</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="../../pink-form.html">Конкурс</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="https://htmlacademy.ru">HTML Academy</a>
+                    </li>
+                    </li>
+                </ul>
+            </div>
+        <!-- <div class="burger__wrapper"> -->
+            <button class="navigation__toggle " type="button"> <!-- Классы burger open-menu__burger burger-menu -->
+                <span class="visually-hidden">Открыть меню</span>  
+            </button>
+        <!-- </div> -->
+        </nav>
 
-<nav class="navigation">
-   <button class="navigation__toggle burger" type="button">
-       Открыть меню
-   </button>
-    <ul class="navigation__list">
-        <li class="navigation__item">
-            <a href="#">Главная</a>
-        </li>
-        <li class="navigation__item">
-            <a href="#">Фотографии</a>
-        </li>
-        <li class="navigation__item">
-            <a href="#">Конкурс</a>
-        </li>
-        <li class="navigation__item">
-            <a href="#">HTML Academy</a>
-        </li>
-    </ul>
-</nav>
-</header>
+    </header>
+</div>
 
     <main class="photo-main">
-        <section class="section-header">
-    <h2 class="section-header__title">
-        Фотографии пользователей
-    </h2>
+
+ 
+    <section class="intro">
+    <!-- фон для блока -->
+    <h2 class="visually-hidden">Скачать приложение</h2>
+    <section class="download-application application">
+       <h2 class="visually-hidden">Скачать приложение</h2>
+       <div class="application__wrapper">
+            <b class="application__phrase">Взгляните на жизнь иначе!</b>
+        </div>
+    </section>
 </section>
+</div>
+
         <section class="section-photos">
     <h2 class="visually-hidden">Фото-контент</h2>
     <p class="section-photos__title">

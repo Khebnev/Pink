@@ -5,61 +5,91 @@
     // display: flex;
     // flex-wrap: wrap;
 
-    // width: 320px;
-    min-height: 51px;
+    width: 320px;
+    // min-height: 51px;
     margin: 0 auto;
 
-    background-color: #eee;
+    // background-color: #eee;
+}
+
+.navigation__wrapper {
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation--closed  .burger__wrapper {
+    position: relative;
+    width: 50px;
+    height: 24px;
 }
 
 
 
 .navigation__toggle {
-    position: absolute;
-    top: 22px;
-    right: 0;
-    z-index: 2;
+    // position: absolute;
+    // top: 22px;
+    // right: 0;
+    // // z-index: 2;
 
-    display: block;
-    width: 50px;
-    height: 24px;
+    // display: block;
+    // width: 50px;
+    // height: 24px;
 
-    background-color: transparent;
+    // background-color: red;
 
-    cursor: pointer;
-    border: none;
+    // cursor: pointer;
+    // border: none;
+    
+    // cursor: pointer;
+    // border: none;
+    // width: 50px;
+    // height: 4px;
 
-    // &:hover,
-    // &:active {
-    //     background-color: green;
-    // }
+    // background-color: #fff;
+    // box-shadow: 0 8px 0 0 #fff, 0 16px 0 0 #fff;
 }
 
 .navigation--closed .navigation__toggle {
-    content: "";
-
     position: absolute;
-    top: 22px;
-    left: 52px;
-
+    cursor: pointer;
+    border: none;
     width: 50px;
     height: 4px;
 
     background-color: #fff;
     box-shadow: 0 8px 0 0 #fff, 0 16px 0 0 #fff;
 
-    &::after {
-        content: "";
 
-        position: absolute;
-        top: 0;
-        left: 0;
 
-        width: 50px;
-        height: 24px;
+    // content: "";
 
-        background-color: transparent;
-    }
+    // position: absolute;
+    // top: 22px;
+    // left: 52px;
+
+    // width: 50px;
+    // height: 4px;
+
+    // background-color: #fff;
+    // box-shadow: 0 8px 0 0 #fff, 0 16px 0 0 #fff;
+
+    // &::after {
+    //     content: "";
+
+    //     position: absolute;
+    //     top: 22px;
+    //     left: 52px;
+    
+    //     width: 50px;
+    //     height: 4px;
+    
+    //     background-color: #fff;
+    //     box-shadow: 0 8px 0 0 #fff, 0 16px 0 0 #fff;
+    // }
 }
 
 .navigation--closed .navigation__toggle:active::before {
@@ -78,7 +108,7 @@
         content: "";
 
         position: absolute;
-        top: -58px;
+        top: 10px;
         left: 197px;
 
         width: 25px;
