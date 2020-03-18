@@ -69,11 +69,11 @@ header {
 
 
 @media screen and (min-width: 660px) {
-    .page-header {
-        background-size: 660px 110px;
-        background-image: url(../../../img/bg-header-660.png);
-        background-repeat: no-repeat;
-    }
+    // .page-header {
+    //     background-size: 660px 110px;
+    //     background-image: url(../../../img/bg-header-660.png);
+    //     background-repeat: no-repeat;
+    // }
 
     
     .header-logo .logo-small {
@@ -82,20 +82,20 @@ header {
 
     .logo-middle {
         display: block;
-        padding: 19px 0;
-        padding-left: 20px;
+        // padding: 19px 0;
+        // padding-left: 20px;
     }
 }
 
 @media screen and (min-width: 1200px) {
-    .page-header {
-        background-size: 1200px 110px;
-        background-image: url(../../../img/bg-header-1200.png);
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 130px;
-    }
+    // .page-header {
+    //     background-size: 1200px 110px;
+    //     background-image: url(../../../img/bg-header-1200.png);
+    //     background-repeat: no-repeat;
+    //     display: flex;
+    //     justify-content: space-between;
+    //     padding: 0 130px;
+    // }
 
     
     .header-logo .logo-small {
