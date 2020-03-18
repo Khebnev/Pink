@@ -75,4 +75,19 @@
         width: 620px;
         justify-content: space-between;
     }
+
+    .navigation--closed .site-list__item {
+        flex-basis: 135px;
+    }
+
+    .navigation--opened .site-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 620px;
+        justify-content: space-between;
+    }
+
+    .navigation--opened .site-list__item {
+        flex-basis: 135px;
+    }
 }
