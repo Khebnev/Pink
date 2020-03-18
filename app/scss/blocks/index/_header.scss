@@ -1,6 +1,7 @@
 @import "mixins.scss";
 @import "../navigation";
 @import "../site-list";
+@import "../index/intro";
 
 
 
@@ -20,12 +21,12 @@ header {
 
 // }
 .header__top {
-    background-image: url(../../../img/back-mobile-320x462.png);
-    background-size: 320px 462px;
-    background-repeat: no-repeat;
-    //background-position: 0 260px;
-    min-height: 462px;
-    //min-height: 721px;
+    // background-image: url(../../../img/back-mobile-320x462.png);
+    // background-size: 320px 462px;
+    // background-repeat: no-repeat;
+    // //background-position: 0 260px;
+    // min-height: 462px;
+    // //min-height: 721px;
 
     
     // width: 100%;
