@@ -3,42 +3,60 @@
     background-image: url(../../../img/photo-bg-320.png);
     background-size: 320px 460px;
     background-repeat: no-repeat;
-    background-position: 0 -66px;
+    background-position: 0 0;
     color: #fff;
     // min-height: 300px;
     width: 320px;
-    height: 237px;
+    min-height: 200px;
 }
 
 
 .photo-intro  .intro__phrase {
     display: block;
+
+    font-family: Open Sans Light;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 36px;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.navigation--opened .photo-intro {
+    min-height: 237px;
+    background-position: 0 40px;
 }
 
 
 @media screen and (min-width: 660px) {
-        .intro {
+        .photo-intro {
         display: block;
-        background-image: url(../../../img/intro-bg-660.png);
+        background-image: url(../../../img/photo-bg-660.png);
         background-size: 660px 730px;
         background-repeat: no-repeat;
         background-position: 0 -110px;
         color: #fff;
-
+        width: 660px;
     }
     
 
-    .application__phrase {
+    .photo-intro  .intro__phrase  {
         display: block;
         
         font-family: Open Sans Light;
         font-size: 40px;
         color: #fff;
-        text-transform: uppercase;
+        // text-transform: uppercase;
         padding: 0 50px;
+        padding-top: 36px;
+        // padding-left: 55px;
+        // padding-right: 55px;
         box-sizing: border-box;
-        margin-bottom: 28px;
+        // margin-bottom: 28px;
         text-align: center;
+        width: 400px;
+        margin: 0 auto;
     }
     
     
