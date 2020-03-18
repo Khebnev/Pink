@@ -6,27 +6,35 @@
 
 
 header {
+    // background-image: url(../../../img/back-mobile-320x462.png);
+    // background-size: 320px 462px;
+    // background-repeat: no-repeat;
+    // //background-position: 0 260px;
+    // min-height: 462px;
+    // //min-height: 721px;
+}
+
+// .page-header {
+
+//     // background-repeat: no-repeat;
+
+// }
+.header__top {
     background-image: url(../../../img/back-mobile-320x462.png);
     background-size: 320px 462px;
     background-repeat: no-repeat;
     //background-position: 0 260px;
     min-height: 462px;
     //min-height: 721px;
-}
 
-.page-header {
-
-    // background-repeat: no-repeat;
-
-}
-.header__top {
-    width: 100%;
-    height: 66px;
-    background-color: rgba(0, 0, 0, 0.3);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
+    
+    // width: 100%;
+    // height: 66px;
+    // background-color: rgba(0, 0, 0, 0.3);
+    // display: flex;
+    // flex-wrap: wrap;
+    // justify-content: space-between;
+    // align-items: center;
 }
 
 
@@ -34,11 +42,11 @@ header {
 
 .header-logo .logo-small {
     // padding: 19px 0;
-    padding-left: 20px;
+    // padding-left: 20px;
 }
 
 .navigation__wrapper .header-logo {
-    padding: 0;
+    // padding: 0;
 }
 
 .logo-middle {
@@ -50,7 +58,7 @@ header {
 }
 
 .navigation--opened .header-logo  {
-    padding: 0;
+    // padding: 0;
     text-align: left;
 }
 

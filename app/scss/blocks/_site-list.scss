@@ -20,6 +20,10 @@
     border-bottom: 1px solid #000; 
 }
 
+.site-list .site-list__item:first-child {
+    border-top: 1px solid #000;
+}
+
 .site-list a[href] {
     &:hover {
         background-color: #2c3b4b;
