@@ -20,3 +20,124 @@
     padding-bottom: 56px;
     margin: 0 auto;
 }
+
+.section-photos .section-photos__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section-photos__item--first-post .section-photos__image-mobile--first-post {
+    display: block;
+    width: 320px;
+    height: 137px;
+}
+
+.section-photos__item--first-post .section-photos__image-tablet--first-post {
+    display: none;
+}
+
+.section-photos__item--first-post .section-photos__image-desktop--first-post {
+    display: none;
+}
+
+.section-photos__list .section-photos__item:first-child  {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    width: 280px;
+    margin-top: 0;
+}
+
+.section-photos__list .section-photos__item  {
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    width: 280px;
+    margin-top: 20px;
+}
+
+
+// .section-photos__list .section-photos__item  {
+//     margin: 0 auto;
+//     background-color: #f2f2f2;
+//     width: 280px;
+// }
+
+.section-photos__list .text-block {
+    width: 280px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 0 17px;
+    box-sizing: border-box;
+}
+
+.section-photos__list .name-time__wrapper {
+    display: flex;
+    padding-top: 23px;
+    padding-bottom: 8px;
+}
+
+
+.section-photos__item .author {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: bold;
+    color: #283645;
+    margin-right: 4px;
+}
+
+.section-photos__item time {
+    font-family: Open Sans Light;
+    font-size: 12px;
+    line-height: 24px;
+    color: #283645;
+}
+
+.section-photos__list .photo-post__text {
+    margin: 0;
+    padding: 0;
+    display: block;
+
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 24px;
+    color: #283645;
+    font-weight: 400;
+
+    margin-bottom: 18px;
+}
+
+.section-photos__list .likes {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 25px;
+}
+
+.section-photos__list .photo-post__like,
+.section-photos__list .photo-post__like-counter {
+    
+    font-family: Open Sans;
+    font-size: 12px;
+    line-height: 24px;
+    color: #d22856;
+}
+
+
+// .section-photos__list .photo-post__like-counter {
+//     font-family: Open Sans;
+//     font-size: 12px;
+//     line-height: 24px;
+//     color: #d22856;
+// }
+
+.section-photos__list .section-photos__image-mobile {
+    display: block;
+}
+
+.section-photos__list .section-photos__image-tablet {
+    display: none;
+}
+
+.section-photos__list .section-photos__image-desktop {
+    display: none;
+}
