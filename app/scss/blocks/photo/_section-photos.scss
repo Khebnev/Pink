@@ -55,6 +55,20 @@
     margin-top: 20px;
 }
 
+.section-photos__list .section-photos__image-mobile {
+    display: block;
+    width: 280px;
+    height: 180px;
+}
+
+.section-photos__list .section-photos__image-tablet {
+    display: none;
+}
+
+.section-photos__list .section-photos__image-desktop {
+    display: none;
+}
+
 
 // .section-photos__list .section-photos__item  {
 //     margin: 0 auto;
@@ -130,14 +144,186 @@
 //     color: #d22856;
 // }
 
-.section-photos__list .section-photos__image-mobile {
-    display: block;
-}
 
-.section-photos__list .section-photos__image-tablet {
-    display: none;
-}
 
-.section-photos__list .section-photos__image-desktop {
-    display: none;
+@media screen and (min-width: 660px) {
+    .section-photos {
+        background-color: #fff;
+    }
+    
+    .section-photos .section-photos__title {
+        // margin: 0;
+        // padding: 0;
+        // display: block;
+    
+        // font-family: Open Sans;
+        font-size: 18px;
+        // font-weight: 400;
+        // line-height: 30px;
+        // color: #283645;
+        // text-align: center;
+    
+        width: 500px;
+    
+        padding-top: 99px;
+        padding-bottom: 79px;
+        margin: 0 auto;
+    }
+    
+    .section-photos .section-photos__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        width: 620px;
+
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .section-photos__list .section-photos__item--first-post {
+        flex-grow: 1;
+        flex-basis: 620px;
+    }
+
+
+    
+    .section-photos__item--first-post .section-photos__image-mobile--first-post {
+        display: none;
+    }
+    
+    .section-photos__item--first-post .section-photos__image-tablet--first-post {
+        display: block;
+        width: 660px;
+        height: 137px;
+
+    }
+    
+    .section-photos__item--first-post .section-photos__image-desktop--first-post {
+        display: none;
+    }
+
+
+
+
+    
+    .section-photos__list .section-photos__item:first-child  {
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        // width: 280px;
+        margin-top: 0;
+    }
+    
+    .section-photos__list .section-photos__item  {
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        width: 300px;
+        margin-top: 20px;
+    }
+    
+    .section-photos__list .section-photos__image-mobile {
+        display: none;
+    }
+    
+    .section-photos__list .section-photos__image-tablet {
+        display: block;
+        width: 620px;
+        height: 510px;
+    }
+    
+    .section-photos__list .section-photos__image-desktop {
+        display: none;
+    }
+    
+    
+    // .section-photos__list .section-photos__item  {
+    //     margin: 0 auto;
+    //     background-color: #f2f2f2;
+    //     width: 280px;
+    // }
+    
+    .section-photos__list .text-block {
+        width: 620px;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        padding: 0 25px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .section-photos__list .name-time__wrapper {
+        display: flex;
+        padding-top: 0;
+        padding-bottom: 0;
+        order: 1;
+    }
+    
+    
+    .section-photos__item .author {
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: bold;
+        color: #283645;
+        margin-right: 4px;
+    }
+    
+    .section-photos__item time {
+        font-family: Open Sans Light;
+        font-size: 12px;
+        line-height: 24px;
+        color: #283645;
+    }
+    
+    .section-photos__list .photo-post__text {
+        margin: 0;
+        padding: 0;
+        display: block;
+    
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 24px;
+        color: #283645;
+        font-weight: 400;
+    
+        margin-bottom: 18px;
+        order: 3;
+    }
+    
+    .section-photos__list .likes {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 0;
+        order: 2;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .section-photos__list .photo-post__like,
+    .section-photos__list .photo-post__like-counter {
+        
+        font-family: Open Sans;
+        font-size: 12px;
+        line-height: 24px;
+        color: #d22856;
+        order: 1;
+    }
+    
+    .likes .like-img {
+        order: 2;
+        width: 13px;
+        height: 12px;
+        margin-left: 10px;
+    }
+    // .section-photos__list .photo-post__like-counter {
+    //     font-family: Open Sans;
+    //     font-size: 12px;
+    //     line-height: 24px;
+    //     color: #d22856;
+    // }
 }
