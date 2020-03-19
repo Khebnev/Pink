@@ -7,7 +7,7 @@
     color: #fff;
     // min-height: 300px;
     width: 320px;
-    min-height: 200px;
+    min-height: 171px;
 }
 
 
@@ -38,6 +38,7 @@
         background-position: 0 -110px;
         color: #fff;
         width: 660px;
+        min-height: 330px;
     }
     
 
@@ -63,27 +64,25 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .intro {
+    .photo-intro {
     display: block;
-    background-image: url(../../../img/bg-desktop-1200.png);
+    background-image: url(../../../img/photo-bg-1200.png);
     background-size: 1200px 853px;
     background-repeat: no-repeat;
-    background-position: 0 -110px;
+    background-position: 0 0;
     color: #fff;
-    min-height: 730px;
+    min-height: 394px;
+    width: 1200px;
     }
 
 
-    .application__phrase {
-        display: block;
-        
-        font-family: Open Sans Light;
-        font-size: 40px;
-        color: #fff;
-        text-transform: uppercase;
-        padding: 0 50px;
-        box-sizing: border-box;
-        margin-bottom: 28px;
+    .photo-intro  .intro__phrase {
+
+        font-size: 50px;
+        padding-top: 69px;
+        text-align: center;
+        width: 460px;
+        margin: 0 auto;
     }
 
     .application .application__button {
