@@ -1,0 +1,130 @@
+.section-upload {
+    background-color: #f2f2f2;
+}
+
+.section-upload__title {
+    padding: 0;
+    margin: 0;
+    display: block;
+
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 30px;
+    color: #283645;
+    font-weight: 400;
+    text-align: center;
+
+    background: #fff;
+
+    margin: 0 auto;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+.section-upload__post-form {
+    // width: 280px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.post-form__img-container {
+    width: 280px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.section-upload__post-form .section-upload__img--tablet-desktop {
+    display: none;
+}
+
+.section-upload__post-form .slider__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 280px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.section-upload__slider-wrapper .slider__item {
+    display: block;
+}
+
+.section-upload__slider-wrapper .slider__item:nth-child(2) {
+    margin-left: 34px;
+    margin-right: 40px;
+}
+
+.slider__item .section-upload__range {
+    display: none;
+}
+
+.section-upload__slider-wrapper .range__mix {
+    width: 280px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+
+}
+
+.section-upload__post-form .section-upload__line {
+    display: block;
+    width: 320px;
+    height: 2px;
+    background-color: #dddfe0;
+    margin-top: 28px;
+    margin-bottom: 38px;
+}
+
+.section-upload__post-form .section-upload__post-buttons {
+    margin: 0;
+    padding: 0;
+}
+
+.section-upload__post-buttons .button__upload-post {
+    width: 280px;
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #d22856;
+
+    border: 3px solid #d22856;
+    border-radius: 30px;
+
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #f2f2f2;
+    margin-bottom: 12px;
+}
+
+
+.section-upload__post-buttons .button__cancel-post {
+    width: 280px;
+    box-sizing: border-box;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #e3e4e4;
+
+    border: 3px solid #e3e4e4;
+    border-radius: 30px;
+
+    padding-top: 18px;
+    padding-bottom: 18px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: transparent;
+}
