@@ -188,24 +188,6 @@
     }
 
 
-    
-    .section-photos__item--first-post .section-photos__image-mobile--first-post {
-        display: none;
-    }
-    
-    .section-photos__item--first-post .section-photos__image-tablet--first-post {
-        display: block;
-        width: 660px;
-        height: 137px;
-
-    }
-    
-    .section-photos__item--first-post .section-photos__image-desktop--first-post {
-        display: none;
-    }
-
-
-
 
     
     .section-photos__list .section-photos__item:first-child  {
@@ -216,9 +198,11 @@
     }
     
     .section-photos__list .section-photos__item  {
+        display: block;
         margin: 0 auto;
         background-color: #f2f2f2;
         width: 300px;
+        // height: 300px;
         margin-top: 20px;
     }
     
@@ -228,13 +212,28 @@
     
     .section-photos__list .section-photos__image-tablet {
         display: block;
-        width: 620px;
-        height: 510px;
+        width: 300px;
+        height: 300px;
     }
     
     .section-photos__list .section-photos__image-desktop {
         display: none;
     }
+
+    .section-photos__item--first-post .section-photos__image-mobile--first-post {
+        display: none;
+    }
+    
+    .section-photos__item--first-post .section-photos__image-tablet--first-post {
+        display: block;
+        width: 660px;
+        height: 510px;
+    }
+    
+    .section-photos__item--first-post .section-photos__image-desktop--first-post {
+        display: none;
+    }
+
     
     
     // .section-photos__list .section-photos__item  {
@@ -244,6 +243,20 @@
     // }
     
     .section-photos__list .text-block {
+        width: 300px;
+        margin: 0 auto;
+        background-color: #f2f2f2;
+        padding: 0;
+        padding: 0 25px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+    .section-photos__list .text-block--first {
         width: 620px;
         margin: 0 auto;
         background-color: #f2f2f2;
@@ -253,13 +266,19 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+        padding-top: 29px;
+        padding-bottom: 28px;
+
     }
+
+
     
     .section-photos__list .name-time__wrapper {
-        display: flex;
+        display: block;
         padding-top: 0;
         padding-bottom: 0;
-        order: 1;
+        order: 0;
+        width: 245px;
     }
     
     
@@ -279,7 +298,22 @@
         color: #283645;
     }
     
-    .section-photos__list .photo-post__text {
+    .text-block .photo-post__text {
+        margin: 0;
+        padding: 0;
+        display: block;
+        width: 245px;
+    
+        font-family: Open Sans;
+        font-size: 14px;
+        line-height: 24px;
+        color: #283645;
+        font-weight: 400;
+    
+        margin-bottom: 0;
+    }
+
+    .text-block--first .photo-post__text {
         margin: 0;
         padding: 0;
         display: block;
@@ -290,11 +324,27 @@
         color: #283645;
         font-weight: 400;
     
-        margin-bottom: 18px;
+        margin-bottom: 0;
         order: 3;
+        width: 620px;
+    }
+
+    .text-block .text-post__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 65px;
+        align-items: flex-start;;
+        padding-top: 29px;
+        padding-bottom: 21px;
     }
     
-    .section-photos__list .likes {
+    .text-block--first .text-post__wrapper {
+        display: block;
+        width: 620px;
+    }
+ 
+    
+    .text-block--first .likes {
         margin: 0;
         padding: 0;
         padding-bottom: 0;
@@ -304,8 +354,8 @@
         align-items: center;
     }
     
-    .section-photos__list .photo-post__like,
-    .section-photos__list .photo-post__like-counter {
+    .text-block--first .photo-post__like,
+    .text-block--first .photo-post__like-counter {
         
         font-family: Open Sans;
         font-size: 12px;
@@ -313,8 +363,10 @@
         color: #d22856;
         order: 1;
     }
+
     
-    .likes .like-img {
+    
+    .text-block--first .like-img {
         order: 2;
         width: 13px;
         height: 12px;
