@@ -363,6 +363,7 @@
 
     .content__right {
         width: 410px;
+        padding-right: 60px;
     }
 
     .post-form__img-container {
@@ -457,6 +458,7 @@
         margin-top: 0;
         margin-left: 0;
         margin-top: 138px;
+        justify-content: space-between;
     }
     
     .section-upload__post-buttons .button__upload-post {
