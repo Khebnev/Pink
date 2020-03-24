@@ -1,27 +1,54 @@
-    <header class="form-header">
-            <a class="header-logo">
-               <img class="logo-small" src="http://placehold.it/75x22">
-               <img class="logo-middle" src="http://placehold.it/147x40">
-               <img class="logo-large" src="http://placehold.it/147x40">
-           </a>
+<header class="form-header"> <!-- Класс content__wrapper -->
 
-        <nav class="navigation">
-           <button class="navigation__toggle burger" type="button">
-               Открыть меню
-           </button>
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a href="#">Главная</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#">Фотографии</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#">Конкурс</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#">HTML Academy</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+    <!-- <a class="header-logo">
+        <img class="logo-small" src="../../../img/logo-small.png">
+        <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
+        <img class="logo-large" src="../../../img/logotype-white-desktop.png">
+    </a> -->
+    <nav class="navigation  navigation--closed  "> <!-- navigation--closed  navigation--opened -->
+        <div class="header__top">
+            <div class="navigation__wrapper">
+                <a class="header-logo">
+                    <img class="logo-small" src="../../../img/logo-small.png">
+                    <img class="logo-middle" src="../../../img/logotype-white-tablet-png.png">
+                    <img class="logo-large" src="../../../img/logotype-white-desktop.png">
+                </a>
+                <ul class="navigation__list site-list">
+                    <li class="site-list__item ">
+                        <a href="../../index.html">Главная</a>
+                    </li>
+                    <li class="site-list__item ">
+                        <a href="../../pink-photo.html">Фотографии</a>
+                    </li>
+                    <li class="site-list__item site-list__item--active">
+                        <a >Конкурс</a>
+                    </li>
+                    <li class="site-list__item">
+                        <a href="https://htmlacademy.ru">HTML Academy</a>
+                    </li>
+                </ul>
+                <div class="burger__wrapper">
+                    <button class="navigation__toggle" type="button"> 
+                        <span class="visually-hidden">Открыть меню</span>  
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- @@include('_photo-section-header.html') -->
+
+    <section class="form-intro">
+        <!-- фон для блока -->
+                <b class="intro__phrase">Конкурс на самое безбашенное путешествие с Пинк</b>
+    </section>
+
+    <!-- <div class="burger__wrapper"> -->
+        <!-- <button class="navigation__toggle " type="button"> 
+            <span class="visually-hidden">Открыть меню</span>  
+        </button> -->
+    <!-- </div> -->
+
+<!-- </div> -->
+
+
+</header>
