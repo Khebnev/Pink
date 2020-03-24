@@ -237,34 +237,49 @@
 Выкладывайте все, что накопилось в телефоне!
     </p>
     <form method="post" action="https://echo.htmlacademy.ru" class="section-upload__post-form post-form">
-        <p class="post-form__img-container">
-            <img class="section-upload__img--mobile" src="../../../img/photo-7-mobile280x374.jpg">
-            <img class="section-upload__img--tablet-desktop" src="http://placehold.it/300x400">
-        </p>
-        <div class="section-upload__slider-wrapper slider">
-            <ul class="slider__list">
-                <li class="slider__item">
-                    <label for="range-crop"><img class="section-upload__crop" src="../../../img/crop.png"></label>
-                    <input  id="range-crop" class="section-upload__range range__crop" type="range">
-                </li>
-                <li class="slider__item">
-                    <img class="section-upload__fill" src="../../../img/fill.png">
-                    <input class="section-upload__range range__fill" type="range">
-                </li>
-                <li class="slider__item">
-                    <img class="section-upload__contrast" src="../../../img/contrast.png">
-                    <input class="section-upload__range range__contrast" type="range">
-                </li>
-            </ul>
-            <input class="section-upload__range range__mix" type="range">
+        <div class="content__left">
+            <p class="post-form__img-container">
+                <img class="section-upload__img--mobile" src="../../../img/photo-7-mobile280x374.jpg">
+                <img class="section-upload__img--tablet-desktop" src="../../../img/photo-7-tablet.jpg">
+            </p>
         </div>
-        <div class="section-upload__line"></div>
-        <p class="section-upload__post-buttons">
-            <button type="submit" class="button__upload-post">
-                Запостить
-            </button>
-            <button type="button" class="button__cancel-post">Отменить</button>
-        </p>
+        <div class="content__right">
+            <div class="section-upload__slider-wrapper slider">
+                <ul class="slider__list">
+                    <li class="slider__item">
+                        <label for="range-crop">
+                            <img class="section-upload__crop" src="../../../img/crop.png">
+                            <img class="section-upload__crop--tablet" src="../../../img/crop50.png">
+                        </label>
+                        <input  id="range-crop" class="section-upload__range range__crop" type="range">
+                    </li>
+                    <div class="section-upload__line"></div>
+                    <li class="slider__item">
+                        <label for="range-fill">
+                            <img class="section-upload__fill" src="../../../img/fill.png">
+                            <img class="section-upload__fill--tablet" src="../../../img/fill50.png">
+                        </label>
+                        <input id="range-fill" class="section-upload__range range__fill" type="range">
+                    </li>
+                    <div class="section-upload__line"></div>
+                    <li class="slider__item">
+                        <label  for="range-contrast">
+                            <img class="section-upload__contrast" src="../../../img/contrast.png">
+                            <img class="section-upload__contrast--tablet" src="../../../img/contrast50.png">
+                        </label>
+                        <input id="range-contrast" class="section-upload__range range__contrast" type="range">
+                    </li>
+                </ul>
+                <input class="section-upload__range range__mix" type="range">
+            </div>
+            <div class="section-upload__line"></div>
+            <p class="section-upload__post-buttons">
+                <button type="submit" class="button__upload-post">
+                    Запостить
+                </button>
+                <button type="button" class="button__cancel-post">Отменить</button>
+            </p>
+        </div>
     </form>
 </section>
 
