@@ -252,3 +252,98 @@ legend {
 .contact-information .phone-input {
     margin-bottom: 23px;
 }
+
+.application {
+    background-color: #f2f2f2;
+}
+
+.application .application-title {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 18px;
+    color: #d22856;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 39px;
+    padding-bottom: 36px;
+}
+
+.application__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.application__list .application-item {
+    padding-left: 30px;
+}
+
+.application-radio {
+    position: relative;
+    padding-left: 60px;
+
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.application-radio:hover,
+.application-radio:active {
+    color: #4d4d4d;
+}
+
+.application-radio input[type="radio"] + .radio-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 39px;
+    height: 39px;
+    background-color: #fff;
+    border-radius: 2px solid #f2f2f2;
+    border-radius: 50%;
+}
+
+.application-radio input[type="radio"]:focus + .radio-indicator {
+    border-color: #4d4d4d    ;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.application-radio input[type="radio"]:hover + .radio-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 39px;
+    height: 39px;
+    background-color: #fff;
+    border-radius: 2px solid #f2f2f2;
+    border-radius: 50%;
+    background-image: url(../../../img/radio-app.png);
+    background-repeat: no-repeat;
+    background-position: 12px 10px;
+}
+
+.application-radio input[type="radio"]:checked + .radio-indicator {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 39px;
+    height: 39px;
+    background-color: #fff;
+    border-radius: 2px solid #f2f2f2;
+    border-radius: 50%;
+
+    background-image: url(../../../img/radio-app.png);
+    background-repeat: no-repeat;
+    background-position: 12px 10px;
+    opacity: 0.1;
+}
