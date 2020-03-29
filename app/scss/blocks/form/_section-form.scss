@@ -1,0 +1,66 @@
+.section-form {
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+.section-form .section-form__title {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #283645;
+    padding: 0 20px;
+    padding-top: 52px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section-form__title .mobile-phrase {
+    display: none;
+}
+
+fieldset {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+.section-form__full-name label {
+    margin-bottom: 11px;
+    display: block;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #d22856;
+    text-transform: uppercase;
+    margin-left: 23px;
+}
+
+.section-form__full-name .full-name__input {
+    display: block;
+    width: 280px;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 30px;
+    color: #283645;
+    font-weight: 400;
+    // margin: 0 20px;
+    margin-bottom: 25px;
+    padding: 14px;
+    padding-left: 22px;
+    box-sizing: border-box;
+}
+
+.section-form__full-name .full-name__input:last-child {
+    margin-bottom: 0;
+    margin-bottom: 42px;
+}
