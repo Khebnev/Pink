@@ -54,6 +54,8 @@ legend {
 .section-form__full-name {
     padding-bottom: 42px;
     display: block;
+    padding-right: 20px;
+    padding-left: 20px;
 }
 
 .section-form__full-name p {
@@ -198,4 +200,55 @@ legend {
     background-repeat: no-repeat;
     background-position: 8px 8px;
     // opacity: 0.1;
+}
+
+
+.contact-information__title {
+    display: none;
+}
+
+.contact-information {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+}
+
+.contact-information .contact-information__phone-wrapper, 
+.contact-information .contact-information__email-wrapper {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-information label {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #d22856;
+    text-transform: uppercase;
+    margin-left: 22px;
+}
+
+.contact-information label:nth-child(2) {
+    padding-top: 20px;
+ }
+
+
+.contact-information .phone-input,
+.contact-information .email-input {
+    width: 280px;
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 30px;
+    color: #283645;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 22px;
+    box-sizing: border-box;
+    margin-top: 11px;
+}
+
+.contact-information .phone-input {
+    margin-bottom: 23px;
 }
