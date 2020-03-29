@@ -347,3 +347,28 @@ legend {
     background-position: 12px 10px;
     opacity: 0.1;
 }
+
+
+// .describe-emotions {
+
+// }
+
+.describe-emotions  .describe-emotions__title {
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 30px;
+    color: #d22856;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 16px;
+}
+
+.describe-emotions textarea {
+    display: block;
+    width: 240px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 48px;
+}
