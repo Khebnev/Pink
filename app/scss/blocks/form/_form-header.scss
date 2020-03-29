@@ -49,20 +49,17 @@
     
 
     .form-intro  .intro__phrase  {
-        display: block;
-        
-        font-family: Open Sans Light;
-        font-size: 40px;
-        color: #fff;
-        // text-transform: uppercase;
+
+        font-size: 50px;
         padding: 0 50px;
-        padding-top: 36px;
+        padding-top: 55px;
+        // padding-bottom: 75px;
         // padding-left: 55px;
         // padding-right: 55px;
         box-sizing: border-box;
         // margin-bottom: 28px;
         text-align: center;
-        width: 400px;
+        width: 620px;
         margin: 0 auto;
     }
     
@@ -70,14 +67,14 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .photo-intro {
+    .form-intro {
     display: block;
     background-image: url(../../../img/photo-bg-1200.png);
     background-size: 1200px 853px;
     background-repeat: no-repeat;
     background-position: 0 0;
     color: #fff;
-    min-height: 394px;
+    min-height: 277px;
     width: 1200px;
     }
 
@@ -85,15 +82,16 @@
     .form-intro  .intro__phrase {
 
         font-size: 50px;
-        padding-top: 69px;
+        padding-top: 68px;
+        padding-bottom: 99px;
         text-align: center;
-        width: 460px;
+        width: 940px;
         margin: 0 auto;
     }
 
     .application .application__button {
         display: block;
-        font-family: Open+Sans;
+        font-family: Open Sans;
         font-size: 18px;
         line-height: 18px;
         font-weight: 700;
