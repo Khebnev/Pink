@@ -1,6 +1,24 @@
+@import "../scaffolding";
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 .section-form {
     background-color: #fff;
-    padding: 0 20px;
+    // padding: 0 20px;
 }
 
 .section-form .section-form__title {
@@ -29,6 +47,16 @@ fieldset {
 }
 
 legend {
+    margin: 0;
+    padding: 0;
+}
+
+.section-form__full-name {
+    padding-bottom: 42px;
+    display: block;
+}
+
+.section-form__full-name p {
     margin: 0;
     padding: 0;
 }
@@ -62,5 +90,112 @@ legend {
 
 .section-form__full-name .full-name__input:last-child {
     margin-bottom: 0;
-    margin-bottom: 42px;
+}
+
+.achievements {
+    display: block;
+    background-color: #f2f2f2;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.achievements .achievements__title {
+    // width: 280px;
+    display: block;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #d22856;
+    text-align: center;
+    text-transform: uppercase;
+    // padding-top: 40px;
+    // padding-bottom: 40px;
+    // padding-left: 30px;
+    // padding-right: 30px;
+    box-sizing: border-box;
+}
+
+.achievements__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+} 
+
+.achievements__list .achievements__item {
+    // padding-left: 70px;
+    width: 280px;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 30px;
+    color: #283645;
+    margin-bottom: 43px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+
+.achievements__checkbox {
+    position: relative;
+
+    padding-left: 70px;
+
+    cursor: pointer;
+    min-height: 40px;
+    align-items: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+}
+
+.achievements__checkbox {
+    position: relative;
+    // padding-left: 30px;
+
+    cursor: pointer;
+}
+
+.achievements__checkbox:hover,
+.achievements__checkbox:active {
+    color: #4d4d4d;
+}
+
+.achievements__checkbox input[type="checkbox"] + .checkbox-indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 39px;
+    height: 39px;
+    border: 2px solid rgb(125, 125, 128);
+    box-sizing: border-box;
+}
+
+.achievements__checkbox input[type="checkbox"]:focus + .checkbox-indicator {
+    border-color: #4d4d4d    ;
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+.achievements__checkbox input[type="checkbox"]:hover + .checkbox-indicator {
+    background-image: url(../../../img/tick-png.png);
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+}
+
+.achievements__checkbox input[type="checkbox"]:checked + .checkbox-indicator {
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-image: url(../../../img/tick-png.png);
+    background-repeat: no-repeat;
+    background-position: 8px 8px;
+    // opacity: 0.1;
 }
