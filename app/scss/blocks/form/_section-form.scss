@@ -415,4 +415,56 @@ padding-bottom: 62px;
     .section-form__title .mobile-phrase {
         display: block;
     }
+
+
+    
+.section-form__full-name p {
+    margin: 0;
+    padding: 0;
+    width: 620px;
+    display: flex;
+    align-items: center;
+}
+
+    .section-form__full-name label {
+        margin-bottom: 0;
+        // display: block;
+        // width: 76px;
+        // font-family: Open Sans;
+        // font-size: 14px;
+        // line-height: 30px;
+        // font-weight: 400;
+        // color: #d22856;
+        // text-transform: uppercase;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    
+    .section-form__full-name .full-name__input {
+        // display: block;
+        width: 280px;
+        font-family: Open Sans;
+        font-size: 18px;
+        line-height: 30px;
+        color: #283645;
+        font-weight: 400;
+        // margin: 0 20px;
+        margin-bottom: 25px;
+        padding: 14px;
+        padding-left: 22px;
+        box-sizing: border-box;
+        flex-grow: 1;
+    }
+
+    .section-form__full-name .full-name__name {
+        margin-top: 52px;
+        margin-bottom: 52px;
+    }
+
+    .section-form__full-name {
+        padding-bottom: 62px;
+        display: block;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
 }
