@@ -719,4 +719,49 @@ padding-bottom: 62px;
         margin-top: 46px;
 
     }
+
+    //describe-emotions
+
+    .describe-emotions {
+        // padding-top: 0;
+        border: 3px solid #eee;
+
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 60px;
+        width: 620px;
+    }
+
+    .describe-emotions .describe-emotions__title {
+        width: 260px;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .describe-emotions textarea {
+        margin-top: 40px;
+        margin-bottom: 0;
+        margin-bottom: 51px;
+    }
+
+    .bottom-form__wrapper {
+        margin-top: 67px;
+        width: 620px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .bottom-form__wrapper .send-form {
+        margin: 0;
+    }
+
+    .remark-mobile {
+        text-align: right;
+        padding-top: 0;
+        padding-bottom: 0;
+        align-self: center;
+    }
 }
