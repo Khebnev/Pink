@@ -654,9 +654,7 @@ padding-bottom: 62px;
         margin-bottom: 0;
         margin-bottom: 18px;
         margin-top: 0;
-}
-
-
+    }
 
     .contact-information .contact-information__email-wrapper {
         display: flex;
@@ -691,5 +689,34 @@ padding-bottom: 62px;
         // margin-bottom: 66px;
         margin-top: 35px;
         margin-bottom: 18px;
+    }
+
+    //achievements
+
+    .achievements {
+        width: 640px;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 60px;
+
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 0;
+        border: 3px solid #eee;
+
+        background-color: #fff;
+    }
+
+    .achievements__title {
+        width: 436px;
+    }
+
+    .achievements .achievements__list {
+        margin-left: 58px;
+    }
+
+     .achievements__list .achievements__item:first-child {
+        margin-top: 46px;
+
     }
 }
