@@ -598,6 +598,12 @@ padding-bottom: 62px;
 
     .contact-information {
         padding-top: 0;
+        border: 3px solid #eee;
+        // padding-left: 20px;
+        // padding-right: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 620px;
     }
 
     .contact-information__title {
@@ -609,8 +615,81 @@ padding-bottom: 62px;
         text-align: center;
         padding-left: 70px;
         padding-right: 70px;
-        padding-top: 60px;
+        padding-top: 35px;
         padding-bottom: 36px;
         margin: 0 auto;
+    }
+
+    .contact-information .contact-information__phone-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+        
+                background-color: #e5e5e5;
+        
+                top: 0;
+                right: 14px;
+                width: 62px;
+                height: 64px;
+
+                background-image: url(../../../img/phone.png);
+                background-repeat: no-repeat;
+                background-position: 22px 24px;
+        }
+    }
+
+    .contact-information__phone-wrapper .phone-label {
+        order: 2;
+        margin-left: 78px;
+    }
+    .contact-information__phone-wrapper .phone-input {
+        width: 500px;
+        order: 1;
+        margin-left: 60px;
+        padding-right: 62px;
+        border: 2px solid #e5e5e5;
+        margin-bottom: 0;
+        margin-bottom: 18px;
+        margin-top: 0;
+}
+
+
+
+    .contact-information .contact-information__email-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+            &::after {
+                content: "";
+                position: absolute;
+        
+                background-color: #e5e5e5;
+        
+                top: 35px;
+                right: 14px;
+                width: 62px;
+                height: 64px;
+                background-image: url(../../../img/mail.png);
+                background-repeat: no-repeat;
+                background-position: 22px 28px;
+        }
+    }
+
+    .contact-information__email-wrapper .email-label {
+        order: 2;
+        margin-left: 78px;
+        margin-bottom: 32px;
+    }
+    .contact-information__email-wrapper .email-input {
+        width: 500px;
+        margin-left: 60px;
+        order: 1;
+        border: 2px solid #e5e5e5;
+        // margin-bottom: 66px;
+        margin-top: 35px;
+        margin-bottom: 18px;
     }
 }
