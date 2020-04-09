@@ -74,6 +74,7 @@
         padding-top: 85px;
         padding-bottom: 36px;
     }
+
     .form-footer__content-wrapper {
         // padding: 36px 20px;
         margin: 0 auto;
@@ -81,6 +82,10 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+    }
+
+    .form-footer .form-footer__logo {
+        margin-bottom: 0;
     }
 
     .form-footer  p {
