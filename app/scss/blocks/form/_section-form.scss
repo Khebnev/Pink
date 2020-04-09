@@ -391,16 +391,18 @@ legend {
 }
 
 .remark-mobile {
-margin: 0;
-padding: 0;
-text-align: center;
-padding-top: 43px;
-padding-bottom: 62px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    padding-top: 43px;
+    padding-bottom: 62px;
+    font-family: Open Sans;
+    font-size: 14px;
+    line-height: 30px;
+    color: #283645;
 }
 
-.remark-sign {
 
-}
 
 @media screen and (min-width: 660px) {
     .section-form .section-form__title {
