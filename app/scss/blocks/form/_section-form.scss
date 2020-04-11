@@ -1167,7 +1167,8 @@ legend {
     }
 
     .achievements__title {
-        width: 436px;
+        width: 260px;
+        text-transform: uppercase;
     }
 
     .achievements .achievements__list {
@@ -1180,16 +1181,22 @@ legend {
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: center;
-        width: 840px;
+        width: 820px;
 
     }
 
      .achievements__list .achievements__item:first-child {
         margin-top: 0;
     }
-    // .achievements__list .achievements__item {
+    .achievements__list .achievements__item {
         // margin-bottom: 0;
-    // }
+        width: 260px;
+        // align-items: center;
+    }
+
+    .achievements__checkbox {
+        padding-left: 60px;
+    }
 
     //describe-emotions
 
@@ -1197,10 +1204,10 @@ legend {
         // padding-top: 0;
         border: 3px solid #eee;
 
-        margin-left: 20px;
-        margin-right: 20px;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: 60px;
-        width: 620px;
+        width: 940px;
     }
 
     .describe-emotions .describe-emotions__title {
@@ -1213,6 +1220,9 @@ legend {
         margin-top: 40px;
         margin-bottom: 0;
         margin-bottom: 51px;
+        margin-left: 60px;
+        margin-right: 60px;
+        width: 820px;
     }
 
     .bottom-form__wrapper {
