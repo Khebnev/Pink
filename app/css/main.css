@@ -62,7 +62,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(../../img/bg-header.png); }
+  background-image: url(img/bg-header.png); }
 
 .navigation--closed .burger__wrapper {
   position: relative;
@@ -187,7 +187,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: url(../../img/header-bg-660.png); }
+    background-image: url(img/header-bg-660.png); }
   .navigation {
     width: 660px; }
   .navigation--closed .header-logo {
@@ -278,7 +278,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: url(../../img/header-bg-1200.png); }
+    background-image: url(img/header-bg-1200.png); }
   .navigation {
     width: 1200px; }
   .navigation--closed .header-logo {
@@ -327,7 +327,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url(../../img/header-bg-1200.png); }
+    background-image: url(img/header-bg-1200.png); }
   .navigation--opened .header-logo {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -3057,7 +3057,7 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-image: url(../../img/bg-header.png); }
+  background-image: url(img/bg-header.png); }
 
 .navigation--closed .burger__wrapper {
   position: relative;
@@ -3182,7 +3182,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: url(../../img/header-bg-660.png); }
+    background-image: url(img/header-bg-660.png); }
   .navigation {
     width: 660px; }
   .navigation--closed .header-logo {
@@ -3273,7 +3273,7 @@ img {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    background-image: url(../../img/header-bg-1200.png); }
+    background-image: url(img/header-bg-1200.png); }
   .navigation {
     width: 1200px; }
   .navigation--closed .header-logo {
@@ -3322,7 +3322,7 @@ img {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    background-image: url(../../img/header-bg-1200.png); }
+    background-image: url(img/header-bg-1200.png); }
   .navigation--opened .header-logo {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
